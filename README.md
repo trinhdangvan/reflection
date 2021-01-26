@@ -10,4 +10,18 @@ Reflection ngày 22/1/2021
 + Hệ quản trị CSDL có chức năng lưu trữ dữ liệu, bảo mật, cung cấp
 công cụ để truy xuất dữ liệu và nhiều tính năng khác.
 
-
+#Reflection ngày 26/1/2021
++ Mảng là cơ chế giúp lưu trữ nhiều giá trị trong cùng một biến
++ Các giá trị được lưu trong mảng thường là cùng loại
++Mảng nhiều chiều:
++ Mảng nhiều chiều là mảng có các phần tử là các mảng
+ Có thể có mảng 2 chiều, 3 chiều, 4 chiều... hoặc nhiều hơn
+ + Có thể sử dụng vòng lặp for và for-each để duyệt mảng
++ Có thể nhúng nội dung của một trang PHP vào trong trang PHP
+khác bằng include,include_once,require,require_once
+#Reflection
++ phân biệt required vs required_one
++ câu lênh requiresDùng để import một file PHP khác vào file hiện tại, lúc này file hiện tại có thể sử dụng mọi tài nguyên của file import đó.
++ câu lệnh required_one Lệnh này có chức năng chẳng khác gì lệnh require, tuy nhiên điểm khác biệt đó là lệnh require_once chỉ import đúng một lần, nghĩa là khi bạn sử dụng hai lệnh require_once cùng một file thì ở lệnh require_once thứ hai nó sẽ thấy là đã xử lý rồi nên nó sẽ không thực thi nữa.
++ Khác nhau giữa require và include:
++Nếu khi import một file bằng lệnh require thì nếu chương trình bị lỗi thì lập tức trình biên dịch sẽ dừng và xuất ra thông báo lỗi. Còn nếu sử dụng lệnh include thì đó chỉ là một cảnh báo nên chương trình vẫn chạy cho đến cuối chương trình.
