@@ -19,7 +19,7 @@ công cụ để truy xuất dữ liệu và nhiều tính năng khác.
  + Có thể sử dụng vòng lặp for và for-each để duyệt mảng
 + Có thể nhúng nội dung của một trang PHP vào trong trang PHP
 khác bằng include,include_once,require,require_once
-#Reflection
+
 + phân biệt required vs required_one
 + câu lênh requiresDùng để import một file PHP khác vào file hiện tại, lúc này file hiện tại có thể sử dụng mọi tài nguyên của file import đó.
 + câu lệnh required_one Lệnh này có chức năng chẳng khác gì lệnh require, tuy nhiên điểm khác biệt đó là lệnh require_once chỉ import đúng một lần, nghĩa là khi bạn sử dụng hai lệnh require_once cùng một file thì ở lệnh require_once thứ hai nó sẽ thấy là đã xử lý rồi nên nó sẽ không thực thi nữa.
