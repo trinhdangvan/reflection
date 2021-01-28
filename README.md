@@ -13,7 +13,7 @@ method)
 + bài học hôm nay học được là sử dụng  và hiểu được Access modifier
 + khai báo lớp, sử dụng GET SET  
 + làm được các bài tập cơ bản 
-+ tìm kiếm thêm kiến thức về xây dựng 
++ tìm kiếm thêm kiến thức về xây dựng  
 
 Reflection ngày 27/1/2021
 + Từ khoá class được sử dụng để khai báo lớp
