@@ -1,4 +1,20 @@
 # reflection
+Reflection ngày 28/1/2021
++ Access modifier là các từ khóa được sử dụng để quy định mức độ
+phạm vi (visibility) truy cập đến lớp và các thành phần của lớp
++ Data field encapsulation (bao gói trường dữ liệu) là hình thức hạn chế
+quyền truy cập trực tiếp vào các thuộc tính của đối tượng bằng cách
+sử dụng từ khoá private
++ Các phương thức cho phép thay đổi giá trị của thuộc tính được gọi là
+setter, các phương thức cho phép lấy về giá trị của thuộc tính được
+gọi là getter
++ Phương thức static còn được gọi là phương thức của lớp (class
+method)
++ bài học hôm nay học được là sử dụng  và hiểu được Access modifier
++ khai báo lớp, sử dụng GET SET  
++ làm được các bài tập cơ bản 
++ tìm kiếm thêm kiến thức về xây dựng 
+
 Reflection ngày 27/1/2021
 + Từ khoá class được sử dụng để khai báo lớp
 + Từ khoá new được sử dụng để khởi tạo đối tượng
