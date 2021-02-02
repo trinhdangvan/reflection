@@ -1,4 +1,30 @@
 # reflection
+ Reflection ngày 2/2/2021
+#### 1. clean code.
++ clean code là những thuật ngữ chỉ những mã nguồn tốt.
+ mã tốt là :
+#### 2. mã tốt là :
++ Đơn giản (giải quyết vấn đề một cách ngắn gọn).
++ Trực tiếp ( giải quyết vấn đề chính xác không lòng vòng).
++ Dễ đọc.
++ Dễ cải tiến.
++ Các định danh thể hiện rõ nghĩa.
++ Không có mã bị trùng lặp.
++ Thể hiện được ý tưởng thiết kế.
+#### 3.Nguyên lý SOLID.
++ Hiểu một cách đơn giản SOLID là 5 nguyên lý giúp lập trình viên phát triền phần mềm với kiến trúc tốt
++ Single responsibility principle là một class chỉ nên thực hiện một nhiệm vụ.
++ Open/closed principle là Có thể thoải mái mở rộng 1 class, nhưng không được sửa đổi bên trong class đó tức là mỗi khi ta muốn thêm chức năng,.. cho chương trình, chúng ta nên viết class mới mở rộng class cũ ( bằng cách kế thừa hoặc sở hữu class cũ) không nên sửa đổi class cũ.
++ Liskov Substitution Principle là trong một chương trình, các object của class con có thể thay thế class cha mà không làm thay đổi tính đúng đắn của chương trình
++ Interface Segregation Principle là thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ, với nhiều mục đích cụ thể.
++ Dependency inversion principle là các module cấp cao không nên phụ thuộc vào các modules cấp thấp và Interface (abstraction) không nên phụ thuộc vào chi tiết, mà ngược lại. (phần này hơi triết học).
+#### 4. coding conventions.
++ Là những tập hợp các quy tắc chung khi lập trình nhằm làm code dễ đọc dễ hiểu do đó dễ quản lý và bảo trì.
++ Hạn chế dùng comment để giải thích code mà hãy cải thiện đoạn code của mình.
++ Chỉ dùng comment khi viết documentation cho thư viện, thông tin đính kèm cho class.
+
+***
+
  Reflection ngày 1/2/2021
 #### 1.Abstract Class.
 + Lớp trừu tượng trước tiên nó chính là 1 lớp, nhưng nó được gọi là lớp trừu tượng bởi vì: – Lớp này sẽ chứa các phương thức trừa tượng. – Các lớp khác khi kế thừa lớp trừu tượng sẽ phải định nghĩa các phương thức trừu tượng ấy
