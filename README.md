@@ -29,9 +29,22 @@
 > - Khi một nhóm đối tượng có cùng bản chất kế thừa từ một class thì sử dụng abstract class.
 > - Khi một nhóm đối tượng không có cùng bản chất nhưng chúng có hành động giống nhau thì sử dụng interface.
 ***
-
-
-
+Reflection ngày 29/1/2021
+#### Kế thừa
+>- Những điều mới học 
++ Kế thừa là gì kế thừa là lớp con có thể kế thừa tất cả các thuộc tính và phương thức của lớp cha và có thêm các thuộc tính và phương thức mới 
++ Ghi đè là lớp con định nghĩa lại các thuộc tính và phương thức của lớp cha 
++ Có 3 dạng kế thừa là :
+>- Single Một :lớp con kế thừa một lớp cha
+>- Multilevel :Kế thừa từ lớp ông đến lớp cha rồi từ lớp cha đến lớp con 
+>- Hierarchical :Một lớp cha kế thừa nhiều lớp con 
+#### 3.Method overriding.
+>- Method Overriding (ghi đè phương thức) là cơ chế cho phép lớp con định nghĩa lại các phương thức đã được định nghĩa trước đó ở lớp cha.
+>- Phương thức override ở lớp con có cùng tên, cùng danh sách tham số và kiểu dữ liệu trả về so với phương thức ở lớp cha.
+>- Phương thức ở lớp con phải có access modifier có level bằng hoặc cao hơn so với phương thức ở lớp cha.
+#### 4. method overloading:
+>-Nạp chồng (Overloading): Việc khai báo trong một lớp có nhiều thuộc tính, nhiều phương thức có cùng tên nhưng với các tham số khác nhau (khác kiểu dữ liệu,khác số lượng tham số).
+***
 Reflection ngày 28/1/2021
 + Access modifier là các từ khóa được sử dụng để quy định mức độ
 phạm vi (visibility) truy cập đến lớp và các thành phần của lớp
