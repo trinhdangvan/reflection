@@ -1,4 +1,55 @@
 # reflection
+ Reflection ngày 3/2/2021
+#### 1.Cấu trúc dữ liệu (data structures):
++ Khái niệm :
+> - là hình thức tổ chức dữ liệu để sử dụng một cách hiệu quả.
++ Chức năng :
+> - Lữu trữ dữ liệu.
+> - Cung cấp các phương thức để thao tác với dữ liệu.
++  Thành phần chính trong một cấu trúc dữ liệu.
+> - Container: là lớp chứa dữ liệu và cung cấp các phương thức để thao tác với dữ liệu.
+> - Elements là các phần tử của dữ liệu.
++ Một số loại cấu trúc dữ liệu thông dụng.
+> - Set nhóm phần tử không trùng nhau.
+> - List Nhóm các phần tử có thể trùng nhau.
+> - Stack Nhóm các phần tử theo trật tự vào trước ra sau.
+> - Queue Nhóm các phần tử theo trật tự vào trước ra trước
+> - Map Lưu dữ liệu theo cặp key - Value.
+> - Tree Lưu dữ liệu theo quan hệ cha con
+> - Grap lưu dữ liệu theo quan hệ mạng lưới.
+### 2. ArrayList.
++ Khái niệm. 
+>- Là một cấu trúc dữ liệu danh sách sử dụng mảng để lưu trữ dữ liệu.
++ Đặc điểm.
+>- Truy xuất nhanh đến các phần tử (truy xuất theo index).
+> - Các thao tác thêm sửa xóa không hiệu quả vì phải dịch chuyển lại các phần tử của mảng.
+>
++ Hoạt động.
+> - Thêm, sửa, xóa, tìm kiếm, duyệt..
+### 3. Linked List
++ Khái niệm.
+> - Là cấu trúc dữ liệu danh sách chứa các phần tử trong đó mỗi phần tử liên kết với phần tử tiếp theo của nó.
+> - Mỗi phần tử bao gồm : Trường dữ liệu chứa giá trị thực sẽ được lưu trữ, xử lý và Trường liên kết giữ địa chỉ mục dữ liệu tiếp theo trong danh sách liên kết.
++ Đặc điểm.
+
+> Ưu điểm:
+> - Thao tác thêm xóa phần tử nhanh hơn loại Array list vì chỉ cần xác định phần tử trước đó và phần tử sau nó sau đó xóa trường liên kết của nó và cho trường liên kết của phần tử trước nó trỏ đến phần tử sau nó là xong.
+>- Tốn ít tài nguyên bộ nhớ.
+>
+>  Nhược điểm:
+> - vì các phần tử liên kết với nhau thành chuỗi như thế nên việc tìm kiếm một phần tử bất kỳ cũng đều phải duyệt từ phần tử đầu tiên trở đi làm mất nhiều thời gian
++ Các loại linked List.
+> - Simple linked list chỉ duyệt các phần tử theo chiều về phía trước tức là các phần tử phía trước chỉ trỏ đến thằng sau nó.
+> - Double linked list các phần tử có thể duyệt cả về trước lẫn về sau do các phần tử đều trở về cả phần tử trước nó và cả phần tử sau nó.
+> - Circular linked list phần tử cuối cùng thì trỏ về phần tử đầu tiên.
++ Các hoạt động.
+> - Thêm 1 phần tử.
+> - Xóa một phần tử.
+> - Duyệt.
+> - Tìm kiếm.
+
+
+***
  Reflection ngày 2/2/2021
 #### 1. clean code.
 + clean code là những thuật ngữ chỉ những mã nguồn tốt.
