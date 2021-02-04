@@ -1,4 +1,30 @@
 # reflection
+Reflection 4/2/2021.
+#### 1. Stack.
++ khái niệm.
+> - Là một loại cấu trúc dữ liệu tuyến tính hoạt động theo cơ chế first in/last out tức là dữ liệu vào trước thì sẽ lấy ra sau.
++ Ứng dụng trong thực tế.
+> - Hiển thị nội dung history của trình duyệt.
+> - Nội dung cập nhật ứng dụng.
+#### 2. Queue.
++ Khái niệm.
+> - Là một cấu trúc dữ liệu tuyến tính dạng danh sách trong đó việc thêm và lấy các phần tử được thực hiện theo quy tắc FIFO (first in/first out) tức là phần tử nào thêm trước thì sẽ được lấy ra trước.
++ Ứng dụng trong thực tế.
+> - Danh sách khám bệnh ở bệnh viện.
+> - Thứ tự đặt vé ở sân bay, rạp chiếu phim..
+#### 3. Tree.
++ Khái niêm.
+> - Là cấu trúc dữ liệu phi tuyến hoạt động theo nguyên tắc phân cấp, trong đó có mối quan hệ cha con giữa các node.
+>- cấu trúc :
+> - Root là nốt gốc tức là ko có cha.
+> - Node mà ko có con thì gọi là leaf (nút lá).
+> - Những node có chung cha gọi là sibling.
+> - Đường kết nối giữa các node gọi là edges.
++ Đặc điểm.
+> - Tốc độ truy xuất ở mức trung bình nó sẽ nhanh hơn dạng linked list và chậm hơn dạng Array list.
+> - Tốc độ xử lý dữ liệu như thêm phần tử, xóa phần tử thì nhanh hơn dạng array list và chậm hơn linked list.
+> - sử dụng tài nguyên bộ nhớ tốt hơn dạng list.
+***
  Reflection ngày 3/2/2021
 #### 1.Cấu trúc dữ liệu (data structures):
 + Khái niệm :
