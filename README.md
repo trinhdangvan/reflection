@@ -1,4 +1,11 @@
 # reflection
+Reflection 5/2/2021.
++ Hàm rewind() sẽ đặt lại vị trí con trỏ nội bộ của file về đầu file
++ Một danh sách liên kết đôi là một danh sách các node được liên kết với nhau theo cả hai hướng 
++ Heaps là một dạng câu trúc gần giống với tree trong đó mỗi node sẽ có giá trị lớn hơn hoặc bằng các node con của nó 
++ Arrays là cấu trúc dữ liệu trông đó lưu trữ các phần tử theo hình thức liên tiếp nhau ,các phần tử này được truy cập dưacj vào chỉ số của chúng 
++ Map là một cấu trúc dữ liệu trong đó ccác phần tử được quản lý theo cặp key-value (khó -giá trị)
+***
 Reflection 4/2/2021.
 #### 1. Stack.
 + khái niệm.
