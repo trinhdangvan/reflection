@@ -26,6 +26,21 @@
 ## 3. SQL (structured query language).
 > - Ngôn ngữ truy vấn có cấu trúc là một loại ngôn ngữ máy tính để thao tác với h
 > - Ngôn ngữ truy vấn có cấu trúc là một loại ngôn ngữ máy tính để thao tác với hệ quản trị cơ sở dữ liệu quan hệ (RDBMS).
+## 3.so sánh DBMS VÀ RDBMS
++ DBMS
+>- Viết tắt của	Hệ thống quản lý cơ sở dữ liệu
+>- Dữ liệu được lưu trữ trong mô hình điều hướng.
+>- Sửa đổi trong dữ liệu là phức tạp.	
+>- Truy cập dữ liệu Tiêu thụ nhiều thời gian hơn.	
+>- Khóa và chỉ mục	không sử dụng 
+>- Cơ sở dữ liệu phân tán	không được hỗ trợ
++ RDBMS
+>- Viết tắt của	Hệ thống quản lý cơ sở dữ liệu quan hệ
+>- Dữ liệu được lưu trữ trong mô hình quan hệ (trong bảng).
+>- Sửa đổi trong dữ liệu là dễ dàng và đơn giản.
+>- Truy cập dữ liệu nhanh hơn so với DBMS.
+>- Để thiết lập các khóa và chỉ mục mối quan hệ được sử dụng trong RDBMS.
+>- Cơ sở dữ liệu phân tán	Được hỗ trợ bởi RDBMS.
 ****
 ## Reflection 22/2/2021.
 ### Biểu thức chính quy (regular Expression).
