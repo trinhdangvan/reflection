@@ -1,4 +1,35 @@
 # reflection
+## Redlection 3/1/2021
+#### Thủ tục lưu 
+>- Là tập hợp các câu lệnh transact-SQL được xem như một khối lệnh đơn nhằm thực hiện một tác vụ cụ thể
+>- Ưuđiểm: 
+>- Tăng tính bảo mật
+>_ Thực thi tiền biên dịch
+>- Giảm thiểu lưu thông trong mô hình Client/Server
+>- Khả năng sử dụng lạ
++ Câu lệnh EXECUTE được sử dụng để chạy các thủ tục do người dùng định nghĩa.
+- Chỉ mục index:
+  + Là bảng tra cuu đặc biệt mà DATABASE có thể sụng để tăng nhanh thời gian và hiệu suất thu nhập dữ liệu. Chỉ mục trong DATABASE là tương tự như một chỉ mục trong mục lục của cuốn sách.
+  + Lưu ý: 
+     + Các chỉ mục ko nên được sử dụng trong bảng nhỏ
+     + Bảng thường xuyên có hoạt động update, insert.
+     + Các chỉ  mục không nên sử dụng trên cột mà có chứa một số lượng lớn giá trị NULL
+     + Không nên dùng trên các cột thường được sửa đổi.  
+- Using view: 
+  + Giúp cho hạn chế quyền truy cập vào dữ liệu theo cách mà người dùng có thể nhìn thấy và đôi khi sửa đổi chính xác những gì hộ cần.
+  + Tóm tắt dữ liệu từ các bảng khác nhau có thể được sử dụng để tạo báo cáo.
+  + Cú pháp tạo View:
+    + CREATE VIEW view_name AS SELECT colum1, colum2...FROM table_name WHERE [condition]
+- Store Procedure:
+  + GIống như 1 chương trình con lưu trữ dữ liệu. 
+  + GIúp cho tái sử dụng code một cách dễ dàng hơn
+  + Cú pháp:
+    + Create Procedure allrecords()
+    +  BEGIN
+    +  Select * from Student_info;
+    +  END
+
+***
 ## Reflection 26/2/2021.
 #### Một số hàm thao tác với dữ liệu trong SQL.
 + 1 Count()
