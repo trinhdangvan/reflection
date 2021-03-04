@@ -1,7 +1,8 @@
 # reflection
 ## Reflection 3/3/2021.
 ## Reflecition 4/3/2021
-+ Hôm nay em làm case nên chưa có reflecition,trong quá tr
++ Hôm nay em làm case nên chưa có reflecition,trong quá trình làm case có gì e chưa làm được em sẽ hỏi mọi người và anh.
+ ***
 #### Mô hình MVC.
 + 1 Giới thiệu:
 >- MVC là chữ viết tắt của Model - View - Controller, đây là một mô hình kiến phần mềm được tạo ra với mục đích quản lý và xây dựng dự án phần mềm có hệ thống hơn.
